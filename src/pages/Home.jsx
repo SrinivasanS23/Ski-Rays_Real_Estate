@@ -16,9 +16,9 @@ const features = [
 ];
 
 const testimonials = [
-  { name: "Rajesh Kumar", role: "Homeowner", content: "The attention to detail in Heaven City is remarkable. It truly feels like a premium living experience." },
-  { name: "Priya Sharma", role: "Investor", content: "An excellent investment opportunity. The amenities and location are unmatched in Kodaikanal." },
-  { name: "Anand Verma", role: "Resident", content: "Living here has been a dream. The community is peaceful, and the facilities are top-notch." }
+  { name: "Srinivasan S", role: "House Owner", content: "The attention to detail in Heaven City is remarkable. It truly feels like a premium living experience." },
+  { name: "Mahalakshmi G", role: "House Owner ", content: "An excellent investment opportunity. The amenities and location are unmatched in Kodaikanal." },
+  { name: "Arivazhagan R", role: "Resident", content: "Living here has been a dream. The community is peaceful, and the facilities are top-notch." }
 ];
 
 const AnimatedCounter = ({ end, label, suffix = "" }) => {
