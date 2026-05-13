@@ -102,7 +102,8 @@ const Project = () => {
           <div className="grid grid-cols-2 gap-4 mb-8">
             <div className="bg-brand-dark/50 p-4 rounded-xl border border-white/5">
               <div className="text-gray-400 text-sm mb-1">Built-up Area</div>
-              <div className="text-xl font-bold text-brand-green">550 Sq.Ft</div>
+              <div className="text-xl font-bold text-brand-green">650.Sq.ft</div>
+              <div className="text-xs text-gray-400 mt-1">Including Super Buildup Area</div>
             </div>
             <div className="bg-brand-dark/50 p-4 rounded-xl border border-white/5">
               <div className="text-gray-400 text-sm mb-1">UDS</div>

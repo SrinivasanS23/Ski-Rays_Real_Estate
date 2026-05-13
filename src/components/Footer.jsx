@@ -19,13 +19,13 @@ const Footer = () => {
               Building premium communities that elevate your lifestyle. Heaven City, Kodaikanal.
             </p>
             <div className="flex space-x-4">
-              <a href="#" className="w-10 h-10 rounded-full glass flex items-center justify-center hover:bg-brand-green transition-colors text-white">
+              <a href="https://www.facebook.com/share/1CmQf7E2Ez/?mibextid=wwXIfr" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full glass flex items-center justify-center hover:bg-brand-green transition-colors text-white">
                 <Facebook size={18} />
               </a>
-              <a href="#" className="w-10 h-10 rounded-full glass flex items-center justify-center hover:bg-brand-green transition-colors text-white">
+              <a href="https://www.instagram.com/skirayshomess" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full glass flex items-center justify-center hover:bg-brand-green transition-colors text-white">
                 <Instagram size={18} />
               </a>
-              <a href="#" className="w-10 h-10 rounded-full glass flex items-center justify-center hover:bg-brand-green transition-colors text-white">
+              <a href="https://x.com/skirayshomess?s=21" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full glass flex items-center justify-center hover:bg-brand-green transition-colors text-white">
                 <Twitter size={18} />
               </a>
             </div>

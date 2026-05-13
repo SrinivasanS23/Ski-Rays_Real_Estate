@@ -59,7 +59,7 @@ const Home = () => {
     >
       <Hero 
         title="Heaven City" 
-        subtitle="Experience luxury living in the heart of Kodaikanal. A premium gated community designed for those who seek the extraordinary."
+        subtitle="Experience luxury Apartment  living in the heart of Kodaikanal. A premium gated community designed for those who seek the extraordinary"
         image="/images/hero_1.png"
         isMain={true}
       />

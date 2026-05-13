@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import Hero from '../components/Hero';
-import { MapPin, Phone, Mail, Clock, Send, CheckCircle2 } from 'lucide-react';
+import { MapPin, Phone, Mail, Clock, Send, CheckCircle2, Instagram, Facebook, Twitter } from 'lucide-react';
 import Modal from '../components/Modal';
 
 const Contact = () => {
@@ -220,9 +220,20 @@ const Contact = () => {
               <div className="absolute inset-0 flex items-center justify-center p-12 text-center">
                 <div>
                   <h3 className="text-2xl font-display font-bold text-white mb-4">Visit Our Office</h3>
-                  <p className="text-gray-300 font-light">
+                  <p className="text-gray-300 font-light mb-8">
                     Experience the luxury first-hand. Schedule a site visit and let our executives guide you through your future home.
                   </p>
+                  <div className="flex justify-center space-x-4">
+                    <a href="https://www.facebook.com/share/1CmQf7E2Ez/?mibextid=wwXIfr" target="_blank" rel="noopener noreferrer" className="w-12 h-12 rounded-full glass flex items-center justify-center hover:bg-brand-green transition-colors text-white">
+                      <Facebook size={20} />
+                    </a>
+                    <a href="https://www.instagram.com/skirayshomess" target="_blank" rel="noopener noreferrer" className="w-12 h-12 rounded-full glass flex items-center justify-center hover:bg-brand-green transition-colors text-white">
+                      <Instagram size={20} />
+                    </a>
+                    <a href="https://x.com/skirayshomess?s=21" target="_blank" rel="noopener noreferrer" className="w-12 h-12 rounded-full glass flex items-center justify-center hover:bg-brand-green transition-colors text-white">
+                      <Twitter size={20} />
+                    </a>
+                  </div>
                 </div>
               </div>
             </div>
